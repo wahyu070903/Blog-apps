@@ -1,0 +1,125 @@
+.intro-panel{
+	display:flex;
+	height:60vh;
+	background-color:#333647;
+}
+.intro-image img
+{
+	max-width: 600px;
+	width:auto;
+	position:absolute;
+	top:50%;
+	transform:translateY(-25%);
+}
+.intro-text{
+	align-self:center;
+	margin-left:10%;
+	margin-right:5%;
+	color:white;
+}
+.intro-text a{
+	margin-right:12px;
+	margin-top:20px;
+	transition: 0.25s;
+}
+.intro-text a:hover{
+	transform:translateY(-4px);
+}
+.new-article{
+	width:100%;
+}
+.new-article-greeting{
+	margin-top:60px;
+	margin-left:100px;
+}
+/*.cards-container{
+	margin-top:60px;
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	justify-content: space-around;
+	align-content: center;
+	grid-row-gap: 40px;
+}*/
+.cards-container{
+	margin-top:60px;
+	display:flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.cards-container a{
+	text-decoration: none;
+	color:black;
+	transition: 0.25s;
+}
+.cards-container a:hover{
+	transform: scale(1.05);
+}
+/*.cards-container{
+	margin-top:60px;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-content: center;
+	flex-wrap: wrap;
+}*/
+/*.card{
+	width:20vw;
+	height:20vw;
+}
+.card-img-top{
+	width:20vw;
+	height:10vw;
+	object-fit: cover;
+	background-color: red;
+}
+.card-body{
+	height:10vw;
+	overflow: hidden;
+}*/
+.cards-container .card{
+	width:18rem;
+	height:18rem;
+	margin-bottom:40px;
+}
+.cards-container .card-img-top{
+	width:18rem;
+	height:9rem;
+	object-fit: cover;
+}
+.cards-container .card-body{
+	height:9rem;
+	width:18rem;
+	overflow: hidden;
+}
+.page-link{
+	cursor: pointer;
+}
+.pagination-container{
+	display:flex;
+	width:100%;
+	justify-content: center;
+}
+.article-by-category{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.category-item-thumb{
+	max-width:6vw;
+	height: auto;
+	margin-right:12px;
+}
+.list-group{
+	position:relative;
+}
+.item-count{
+	position:absolute;
+	top:4px;
+	right:0px;
+	border:0px;
+	background:transparent;
+}

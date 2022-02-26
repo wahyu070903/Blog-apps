@@ -1,0 +1,30 @@
+.cards-container{
+	margin-top:60px;
+	display:flex;
+	justify-content: space-around;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.cards-container a{
+	text-decoration: none;
+	color:black;
+	transition: 0.25s;
+}
+.cards-container a:hover{
+	transform: scale(1.05);
+}
+.cards-container .card{
+	width:18rem;
+	height:18rem;
+	margin-bottom:40px;
+}
+.cards-container .card-img-top{
+	width:18rem;
+	height:9rem;
+	object-fit: cover;
+}
+.cards-container .card-body{
+	height:9rem;
+	width:18rem;
+	overflow: hidden;
+}

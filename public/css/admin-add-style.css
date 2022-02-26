@@ -1,0 +1,11 @@
+*{
+	overflow: hidden;
+}
+.panel{
+	height:calc(100vh - 8vh);
+	overflow:hidden;
+}
+.submit-btn{
+	margin-top:40px;
+	margin-left: 40px;
+}

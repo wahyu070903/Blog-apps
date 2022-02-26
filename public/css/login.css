@@ -1,0 +1,112 @@
+*{
+	padding:0;
+	margin:0;
+	overflow-x: hidden;
+}
+.login-column{
+	margin:60px 20px;
+}
+.left-img{
+	height:100%;
+	width:100%;
+	object-fit: cover;	
+}
+.get-started{
+	font-weight: bold;
+}
+.login-column p{
+	color:#c1c1c1;
+}
+.login-link{
+	text-decoration: none;
+	color:#3461eb;
+	font-weight: bold;
+}
+.service-logo{
+	max-height:20px;
+	width:auto;
+	margin-right:6px;
+}
+.google-login, .facebook-login{
+	text-decoration: none;
+	transition: 0.25s;
+	white-space: nowrap;
+}
+.google-login{
+	border:1px solid #c1c1c1;
+	color:black;
+}
+.facebook-login{
+	background-color: #3461eb;
+	color:white;
+}
+.break-row{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+	margin-top:20px;
+	margin-bottom: 20px;
+	width:100%;
+}
+.break-line{
+	height:1px;
+	width:45%;
+	border-top:1px solid #c1c1c1;
+}
+.break-row span{
+	color:#c1c1c1;
+	margin:0 6px;
+}
+.privacy-policy-text{
+	color:#c1c1c1;
+}
+.privacy-link, .term-link{
+	text-decoration: none;
+	color: #3461eb;
+	font-weight: bold;
+}
+.register-button{
+	margin-top:12px;
+	background-color: #3461eb;
+	color:white;
+	width:100%;
+	transition: 0.25s;
+}
+.google-login:hover{
+	opacity:0.8;
+}
+.facebook-login:hover{
+	opacity:0.8;
+	color:white;
+}
+.register-button:hover{
+	opacity:0.8;
+	color:white;
+}
+.input-left-logo{
+	border-right: none;
+	background:transparent;
+}
+.input-right-logo{
+	border-left: none;
+	background:transparent;
+}
+.single-logo-input{
+	border-left: none;
+}
+.double-logo-input{
+	border-left: none;
+	border-right: none;
+}
+.show-password{
+	cursor: pointer;
+}
+.error-message{
+	color:red;
+	margin:0;
+	padding:0;
+}
+.input-group{
+	margin-bottom:0px;
+}
